@@ -1,0 +1,8 @@
+﻿@model IEnumerable<TP1.Models.Movie>
+
+
+<h2>Liste des films</h2>
+@foreach (var item in Model)
+{
+    <h3>@item.Name</h3>
+}
